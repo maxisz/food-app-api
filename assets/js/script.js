@@ -16,8 +16,8 @@ function getRandomInt(max) {
   }
 
 window.onload = function() {
-    let items=['rice','cucumber','bread'];
-    let searchInputTxt = items[getRandomInt(3)];
+    let items=['rice','cucumber','bread',''];
+    let searchInputTxt = items[getRandomInt(4)];
     fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInputTxt}`)
     .then(response => response.json())
     .then(data => {
