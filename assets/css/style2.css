@@ -372,7 +372,7 @@ section {
 }
 
 .deal {
-    background: url(https://maxisz.github.io/food-app-api/assets/img/deal-bg.jpg) no-repeat;
+    background: url('https://maxisz.github.io/food-app-api/assets/img/deal-bg.jpg') no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 7rem;
