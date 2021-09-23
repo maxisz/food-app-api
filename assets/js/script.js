@@ -121,10 +121,10 @@ function mealRecipeModal(meal){
         <img class="ingredient" src="https://www.themealdb.com/images/ingredients/${meal.strIngredient12}.png" alt="" >
         <img class="ingredient" src="https://www.themealdb.com/images/ingredients/${meal.strIngredient13}.png" alt="" >
         </div>  
-        <h2 class="title" >Instructions:</h3>
-            <p class="title" >${meal.strInstructions}</p>
-
-            
+        <h2 class="title">Ingredients names</h2>
+        <p class="title">${meal.strIngredient1} , ${meal.strIngredient2},${meal.strIngredient3},${meal.strIngredient4},${meal.strIngredient5},${meal.strIngredient6},${meal.strIngredient7},${meal.strIngredient8},${meal.strIngredient9},${meal.strIngredient10}, ${meal.strIngredient11}</p>
+        <h2 class="title" >Instruction:</h3>
+        <p class="title" >${meal.strInstructions}</p>
         </div>
         <div class = "recipe-meal-img">
             <img src = "${meal.strMealThumb}" alt = "">
